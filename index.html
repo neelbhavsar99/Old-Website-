@@ -29,10 +29,34 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
+    <style>
+
+    .cardpictures img {
+    -webkit-transform: scale(1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 500ms;
+    }
+
+    .cardpictures img:hover{
+    -webkit-transform: scale(.5);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 500ms;
+    }
+
+    .title {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .imgBorder{
+      border-radius: 10%;
+    }
+
+    </style>
+
   </head>
 
   <body id="page-top">
-
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -142,99 +166,42 @@
           </div>
         </div>
 
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Programming
-                  </div>
-                  <div class="project-name">
-                    Suicide Prevention Webapp
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Application Game
-                  </div>
-                  <div class="project-name">
-                    2D Platformer
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm- 6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Coming soon
-                  </div>
-                  <div class="project-name">
-                    VHDL Implementations
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
+        <div class="container mt-2">
+
+      		<div class = "row">
+
+      			<div class = "col-sm-4" style="width: 12rem;">
+      				<div class = "cardpictures">
+      					 <a href="http://awol.tech/suicide/"> <img class = "imgBorder" src="1.jpg" width="350px;"/></a>
+      					 <div>
+      					  	<h3 class = "title">Web Interactive Application</h3>
+      					  	<p class = "title">Built an automated bot system using HTML5, CSS, Bootstrap and JS creating using Google chatbot APIs that takes a collection of phrases based on an input received from user end.</p>
+      					 </div>
+      				</div>
+      			</div>
+
+      			<div class = "col-sm-4" style="width: 12rem;">
+      				<div class="cardpictures">
+      					 <a href="https://github.com/neelbhavsar99/MyUnityGame"><img class = "imgBorder" src="2.jpg" width="350px;"/></a>
+      					 <div>
+      					  	<h3 class = "title">Unity 2D Platformer</h3>
+      					  	<p class = "title">Used object oriented programming on Unity game engine with C# to design, develop and incorporate a virtual 2D platformer system, allowing up to two player input, integrated polymorphism with inheritance of nested classes, advanced methods on private and public domain to render a virtual model of the prototype</p>
+      					 </div>
+      				</div>
+      			</div>
+
+      			<div class = "col-sm-4" style="width: 12rem;">
+      				<div class="cardpictures">
+      					 <img class = "imgBorder" width="350px;"height = "200px;" src="3.png"/>
+      					 <div>
+      					  	<h3 class = "title">VHDL Project Implementation</h3>
+      					  	<p class = "title">Working with an agile development team to develop, test and maintain mobile based application to incorporate live crypto currency
+conversions on object-oriented analysis with Java, Server API, IP (Internet Protocol) and I/O Interface (Crypto Convert)</p>
+      					 </div>
+      				</div>
+      			</div>
+
+      		</div>
       </div>
     </section>
 
