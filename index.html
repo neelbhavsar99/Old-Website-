@@ -73,7 +73,7 @@
 
       TM{  opacity:1;
   				position:relative;
-  				animation-name: Neel;
+  				animation-name: Talha;
   				animation-duration: 2s;
   				animation-iteration-count: infinite;
   				animation-delay:1s;
@@ -85,7 +85,14 @@
 
         .lightGreen {
           margin-top: -30px;
-      color: #90EE90;}
+          color: #90EE90;}
+
+            @keyframes Talha {
+                0% {opacity: 0.5;}
+                50% {opacity: 1; }
+                100% {opacity: 0.5;}
+              }
+
 
       .cardpictures img {
       -webkit-transform: scale(1);
@@ -150,9 +157,44 @@
         width:65%;
         height:420px;
         margin: auto;
-        border-radius: 1%;
+        border-radius: 1%;}
+
+        .changeColour{
+        -webkit-animation: color-change 4s infinite;
+        -moz-animation: color-change 4s infinite;
+        -o-animation: color-change 4s infinite;
+        -ms-animation: color-change 4s infinite;
+        animation: color-change 4s infinite;
+    }
+
+    @-webkit-keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @-moz-keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @-ms-keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @-o-keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
 
       }
+
 
 
     </style>
@@ -208,7 +250,7 @@
     <div class = "container">
       <div class="jumbotron2">
       <h1 class="display-5">Hello.</h1><br>
-      <p class="lead">I am a second year Computer Engineering student at <strong>Ryerson University</strong>, very passionate learning about the new leading technologies. I have worked with various app, web development as well as hardware digital systems. Every day, I aspire to learn something new and try to apply the same knowledge in my future projects and work. Alongside, I have experience in the corporate world so I wish to combine technical and financial experiences as a technocommercial candidate.</p>
+      <p class="lead">I am a second year Computer Engineering student at <strong class = "changeColour">Ryerson University</strong>, very passionate learning about the new leading technologies. I have worked with various app, web development as well as hardware digital systems. Every day, I aspire to learn something new and try to apply the same knowledge in my future projects and work. Alongside, I have experience in the corporate world so I wish to combine technical and financial experiences as a technocommercial candidate.</p>
 
       </div>
 
