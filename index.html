@@ -126,13 +126,13 @@
       }
 
       .card{
-        background-color:;
+        background-color:#c5dce5;
         margin-top: 40px;
         height:500px;
         width: 310px;
         border-radius:1%;
-        border-color: #a8d2db;
-        border-width: 5px;
+        border-color: black;
+        border-width: 1px;
       }
 
       .card-img-top{
@@ -165,7 +165,7 @@
         -o-animation: color-change 4s infinite;
         -ms-animation: color-change 4s infinite;
         animation: color-change 4s infinite;
-    }
+        }
 
     @-webkit-keyframes color-change {
         0% { color: red; }
@@ -193,7 +193,50 @@
         100% { color: red; }
     }
 
-      }
+    .container24 {
+  position: relative;
+  width: 50%;
+}
+
+    .image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 10%;
+  width:225px;
+  height: 125px;
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container24:hover .image {
+  opacity: 0.3;
+}
+
+.container24:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  width: 50%;
+  padding-left: 125%;
+
+}
 
 
 
@@ -276,13 +319,16 @@
               <div class="card" >
                 <img style = "margin-top: 25px;width:100px;"src="skills.png" class="card-img-top" alt="...">
                 <div class="card-body">
+                  <hr class="my-2" style = "border-color:black;"><br>
                     <h4 class="card-title">Programming Languages</h4><br>
-                      <ul >HTML5</ul>
-                      <ul >CSS, CSS3</ul>
-                      <ul >JavaScript</ul>
-                      <ul >Bootstrap4</ul>
-                      <ul >Java</ul>
+
+                      <ul >Java SE</ul>
                       <ul >C++, C#, C</ul>
+                      <ul >JavaScript</ul>
+                      <ul >HTML5, CSS</ul>
+                      <ul >SQL, PHP</ul>
+                      <ul >Bootstrap4</ul>
+                      <ul >Git  </ul
                 </div>
               </div>
             </div>
@@ -292,13 +338,16 @@
               <div class="card" >
                 <img style = "text-align: center; margin-top:25px;width:100px;"src="skills2.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h4 class="card-title">Libraries and FrameWorks</h4><br>
+                    <hr class="my-2" style = "border-color:black;"><br>
+                    <h4 class="card-title">Softwares</h4><br>
 
                       <ul >Visual Studio</ul>
-                      <ul >Visual Basic</ul>
+                      <ul >Visual Basic Applications</ul>
                       <ul >Android Studio</ul>
                       <ul >Adobe Illustrator</ul>
                       <ul >Microsoft Office Suite</ul>
+                      <ul >AutoCAD</ul>
+                      <ul >MATLAB</ul>
 
                 </div>
               </div>
@@ -308,6 +357,7 @@
               <div class="card" >
                 <img style = "margin-top:25px;width:100px;"src="skills3.png" class="card-img-top" alt="...">
                 <div class="card-body">
+                    <hr class="my-2" style = "border-color:black;"><br>
                     <h4 class="card-title">Engineering Equipment</h4></br>
                       <ul >Oscilliscopes</ul>
                       <ul >Multi-meter</ul>
@@ -339,13 +389,14 @@
 
           <div class = "col-sm-4">
             <div class = "cardpictures">
-               <a href=> <img class = "imgBorder" src="KPMG.jpeg" width="250px;"/></a>
+               <a href=> <img class = "image" src="KPMG.jpeg" width="250px;"/></a>
                <div>
                   <h3 class = "title">KPMG Ideation Challenge 2019</h3>
                   <p class = "title1">Working with AI and Cognitive Computing system utilizing
-weather API, traffic API and ABS (Anti-braking System) data to assist the driver with road
-guidance on extreme weather conditions.</p>
+                    weather API, traffic API and ABS (Anti-braking System) data to assist the driver with road
+                    guidance on extreme weather conditions.</p>
                </div>
+          <button type="button" class="btn btn-info" href = "https://frontierofhealthcare.com" >See Code</button>
             </div>
           </div>
 
@@ -375,7 +426,6 @@ guidance on extreme weather conditions.</p>
 
 
     <div class = "row">
-
 
           <div class = "col-sm-4">
             <div class = "cardpictures">
@@ -410,6 +460,57 @@ guidance on extreme weather conditions.</p>
           </div>
 
     </div>
+
+
+
+    <div class = "row">
+      <div class = "col-sm-4">
+          <div class="container24">
+            <img src="1.jpg" alt="" class="image">
+            <div class="middle">
+            <div class="text">John Doe</div>
+            </div>
+          </div>
+           <div style = "text-align:center;">
+              <h3 class = "title">VHDL Project Implementation</h3>
+              <p class = "title1">Working with an agile development team to develop, test and maintain mobile based application to incorporate live crypto currency
+      conversions on object-oriented analysis with Java, Server API, IP (Internet Protocol) and I/O Interface (Crypto Convert)</p>
+           </div>
+         </div>
+
+         <div class = "col-sm-4">
+             <div class="container24">
+               <img src="2.jpg" alt="" class="image">
+               <div class="middle">
+               <div class="text">John Doe</div>
+               </div>
+             </div>
+              <div style = "text-align:center;">
+                 <h3 class = "title">VHDL Project Implementation</h3>
+                 <p class = "title1">Working with an agile development team to develop, test and maintain mobile based application to incorporate live crypto currency
+         conversions on object-oriented analysis with Java, Server API, IP (Internet Protocol) and I/O Interface (Crypto Convert)</p>
+              </div>
+            </div>
+
+            <div class = "col-sm-4">
+                <div class="container24">
+                  <img src="3.png" alt="" class="image">
+                  <div class="middle">
+                  <div class="text">John Doe</div>
+                  </div>
+                </div>
+                 <div style = "text-align:center;">
+                    <h3 class = "title">VHDL Project Implementation</h3>
+                    <p class = "title1">Working with an agile development team to develop, test and maintain mobile based application to incorporate live crypto currency
+            conversions on object-oriented analysis with Java, Server API, IP (Internet Protocol) and I/O Interface (Crypto Convert)</p>
+                 </div>
+               </div>
+     </div>
+   </div>
+
+
+
+
     <br><br><br><hr class = "my-2"><br>
 
   <h1 class="display-5">Extra Curriculars</h1><br>
