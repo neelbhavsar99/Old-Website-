@@ -236,9 +236,7 @@
   position: relative;
 
 
-
 }
-
 
 
     </style>
@@ -407,7 +405,7 @@
             <div class="cardpictures">
                <a href="https://frontierofhealthcare.com"><img class = "imgBorder" src="conference.jpg" width="250px;"/></a>
                <div>
-                  <h3 class = "title">Website for Conference</h3>
+                  <h3 class = "title">Frontier of Healthcare Digital-Tech Conference</h3>
                   <p class = "title1">Used a variety of HTML5, CSS3 and JavaScript to create a website for an upcoming conference. Responsbile for regularly maintaining it.</p>
                </div>
             </div>
@@ -418,7 +416,7 @@
             <div class = "cardpictures">
                <a href="http://awol.tech/Baitul/"> <img class = "imgBorder" src="Masjid.png" width="250px;" height = "140px;"/></a>
                <div>
-                  <h3 class = "title">Religious Institution Website</h3>
+                  <h3 class = "title">Danforth Community Centre</h3>
                   <p class = "title1">Built a website for local mosque incorporating live changes to prayer times with usage of open source code as times may vary. Used a combination of PHP, Javascript, HTML5 and CSS3 to create a layout for website.
               </div>
             </div>
@@ -433,7 +431,7 @@
             <div class = "cardpictures">
                <a href="http://awol.tech/suicide/"> <img class = "imgBorder" src="1.jpg" width="250px;"/></a>
                <div>
-                  <h3 class = "title">Web Interactive Application</h3>
+                  <h3 class = "title">Web Application - Chatbot API</h3>
                   <p class = "title1">Built an automated bot system using HTML5, CSS, Bootstrap and JS creating using Google chatbot APIs that takes a collection of phrases based on an input received from user end.</p>
                </div>
             </div>
@@ -455,7 +453,7 @@
             <div class="cardpictures">
                <a href="https://github.com/neelbhavsar99/MyUnityGame"><img class = "imgBorder" src="2.jpg" width="250px;"/></a>
                <div>
-                  <h3  class = "title1">Unity 2D Platformer</h3>
+                  <h3  class = "title1">Unity 2D Platformer Game Ecosystem</h3>
                   <p  class = "title">Used object oriented programming on Unity game engine with C# to design, develop and incorporate a virtual 2D platformer system, allowing up to two player input, integrated polymorphism with inheritance of nested classes, advanced methods on private and public domain to render a virtual model of the prototype</p>
                </div>
             </div>
@@ -480,8 +478,6 @@
       </div>
 
     </div>
-
-
 
 
    </div>
