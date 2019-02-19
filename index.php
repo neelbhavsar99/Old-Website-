@@ -125,14 +125,14 @@
         text-align: center;
       }
 
-      .card2{
+      .card{
         background-color:#c5dce5;
         margin-top: 40px;
         height:500px;
         width: 310px;
         border-radius:1%;
-        border-color:black;
-        border-width: 10px;
+        border-color: black;
+        border-width: 1px;
       }
 
       .card-img-top{
@@ -234,9 +234,10 @@
   font-size: 16px;
   text-align: center;
   position: relative;
-.
+
 
 }
+
 
     </style>
 
@@ -286,7 +287,8 @@
     <p class="lead"></p>
       <p class="lead"></p>
   </div>
-  <hr class="my-2"><br>
+<hr class="my-2"><br>
+
     <div class = "container">
       <div class="jumbotron2">
       <h1 class="display-5">Hello.</h1><br>
@@ -313,55 +315,55 @@
         <div class = "row">
 
             <div class = "col-sm-4">
-
-              <div class="card2">
+              <div class="card" >
                 <img style = "margin-top: 25px;width:100px;"src="skills.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <hr class="my-2" style = "border-color:black;"><br>
                     <h4 class="card-title">Programming Languages</h4><br>
-                    <h5 class="card-title">Java SE</h5>
-                    <h5 class="card-title">C</h5>
-                    <h5 class="card-title">Python</h5>
-                    <h5 class="card-title">C++, C#</h5>
-                    <h5 class="card-title">HTML, CSS</h5>
-                    <h5 class="card-title">JavaScript</h5>
-                    <h5 class="card-title">jQuery , nodeJS, reactJS</h5>
-                    <h5 class="card-title">Bootstrap4, PHP</h5>
-                    <h5 class="card-title">mySQL, noSQL</h5>
-                    <h5 class="card-title">Git</h5>
+                      <div style = "text-align:center">
+                      <ul >Java SE</ul>
+                      <ul >C++, C#, C</ul>
+                      <ul >JavaScript</ul>
+                      <ul >HTML5, CSS</ul>
+                      <ul >SQL, PHP</ul>
+                      <ul >Bootstrap4</ul>
+                      <ul >Git  </ul>
+                      </div>
                 </div>
               </div>
             </div>
 
 
             <div class = "col-sm-4">
-              <div class="card2">
+              <div class="card" >
                 <img style = "text-align: center; margin-top:25px;width:100px;"src="skills2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <hr class="my-2" style = "border-color:black;"><br>
-                    <h4 class="card-text">Softwares</h4><br>
-                    <h5 class="card-title">Visual Studio</h5>
-                    <h5 class="card-title">Visual Basic Applications</h5>
-                    <h5 class="card-title">MS Office Suite</h5>
-                    <h5 class="card-title">Netbeans IDE</h5>
-                    <h5 class="card-title">AutoCAD</h5>
-                    <h5 class="card-title">Matlab</h5>
+                    <h4 class="card-title">Softwares</h4><br>
+
+                      <ul >Visual Studio</ul>
+                      <ul >Visual Basic Applications</ul>
+                      <ul >Android Studio</ul>
+                      <ul >Adobe Illustrator</ul>
+                      <ul >Microsoft Office Suite</ul>
+                      <ul >AutoCAD</ul>
+                      <ul >MATLAB</ul>
+
                 </div>
               </div>
             </div>
 
             <div class = "col-sm-4">
-              <div class="card2" >
+              <div class="card" >
                 <img style = "margin-top:25px;width:100px;"src="skills3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <hr class="my-2" style = "border-color:black;"><br>
-                    <h4 class="card-title">Engineering Equipment</h5><br>
-                        <h5 class="card-title">Adobe Illustrator</h5>
-                        <h5 class="card-title">Oscilliscopes</h5>
-                        <h5 class="card-title">CPLD</h5>
-                        <h5 class="card-title">Micro-Controllers</h5>
-                        <h5 class="card-title">Breadboard</h5>
-                        <h5 class="card-title">Arduino Uno</h5>
+                    <h4 class="card-title">Engineering Equipment</h4></br>
+                      <ul >Oscilliscopes</ul>
+                      <ul >Multi-meter</ul>
+                      <ul >Function Generator</ul>
+                      <ul >CPLD Chips</ul>
+                      <ul >Micro-controllers</ul>
                 </div>
               </div>
             </div>
@@ -382,93 +384,118 @@
           <br><br><br><hr class = "my-2"><br>
         <h1 class="display-5">Projects</h1><br>
 
-    <div class = "container">
 
-      <div class = "card-deck">
+        <div class = "row">
 
-            <div class="card text-center" style="width: 25rem;">
-              <img class="card-img-top img-fluid"  style = "height:160px"src="Hardware2.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Smart Room Detection with ioT sensors</h5>
-                  <p class="card-text">We implemented a smart ecosystem device with a web application to find unoccupied rooms that have been booked, fetching data from an SQL database.</p>
-                  <a target="_blank" href="http://awol.tech/myemptyroom/" class="btn btn-primary">Learn More</a>
-                </div>
+          <div class = "col-sm-4">
+            <div class = "cardpictures">
+               <a href=> <img class = "imgBorder" src="KPMG.jpeg" width="250px;"/></a>
+               <div>
+                  <h3 class = "title">KPMG Ideation Challenge 2019</h3>
+                  <p class = "title1">Working with AI and Cognitive Computing system utilizing
+                    weather API, traffic API and ABS (Anti-braking System) data to assist the driver with road
+                    guidance on extreme weather conditions.</p>
+               </div>
+
             </div>
-
-             <div class="card text-center" style="width: 25rem;">
-                <img class="card-img-top img-fluid"  style = "height:160px"src="KPMG.jpeg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">KPMG Ideation Challenge 2019</h5>
-                    <p class="card-text">Working with AI and Cognitive Computing system utilizing
-                      weather API, traffic API and ABS (Anti-braking System) data to assist the driver with road
-                      guidance on extreme weather conditions..</p>
-                    <a href="#" target="_blank" class="btn btn-primary">Learn More</a>
-                  </div>
-              </div>
-
-              <div class="card text-center" style="width: 25rem;">
-                <img class="card-img-top img-fluid" style = "height:160px" src="conference.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Frontier of Healthcare Digital-Tech Conference</h5>
-                    <p class="card-text">Used a variety of HTML5, CSS3 and JavaScript to create a website for an upcoming conference. Responsbile for regularly maintaining it.</p>
-                    <a href= "https://frontierofhealthcare.com" target="_blank" class="btn btn-primary">Learn More</a>
-                  </div>
-              </div>
-
-              <div class="card text-center" style="width: 25rem;">
-                <img class="card-img-top img-fluid" style = "height:160px; border-color:black;" src="Masjid.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Danforth Community Centre</h5>
-                    <p class="card-text">Built a website for local mosque incorporating live changes to prayer times with usage of open source code as times may vary. Used a combination of PHP, Javascript, HTML5 and CSS3 to create a layout for website.</p>
-                    <a href="http://awol.tech/Baitul/" target="_blank" class="btn btn-primary">Learn More</a>
-                  </div>
-              </div>
           </div>
 
-          <br><br><br>
 
-          <div class = "card-deck">
-
-                <div class="card text-center" style="width: 25rem;">
-                  <img class="card-img-top img-fluid"  style = "height:160px" src="1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Web Application - Google Chatbot API</h5>
-                      <p class="card-text">Built an automated bot system using HTML5, CSS, Bootstrap and JS creating using Google chatbot APIs that takes a collection of phrases based on an input received from user end.</p>
-                      <a href="http://awol.tech/suicide/" target="_blank" class="btn btn-primary">Learn More</a>
-                    </div>
-                </div>
-
-                 <div class="card text-center" style="width: 25rem;">
-                    <img class="card-img-top img-fluid" style = "height:160px; border-colour:black" src="3.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Crypo Convert - App Development</h5>
-                        <p class="card-text">Built an application with Android Studio on the Android App Store that implements crypto conversion with live rate changes with the use of object oriented programming.</p>
-                        <a href="https://github.com/neelbhavsar99/CryptoConvert" target="_blank" class="btn btn-primary">Learn More</a>
-                      </div>
-                  </div>
-
-                  <div class="card text-center" style="width: 25rem;">
-                    <img class="card-img-top img-fluid" style = "height:160px" src="2.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Unity 2D Platformer Game System</h5>
-                        <p class="card-text">Used object oriented programming on Unity game engine with C# to design, develop and incorporate a virtual 2D platformer system, allowing up to two player input, integrated polymorphism with inheritance of nested classes, advanced methods on private and public domain to render a virtual model of the prototype</p>
-                        <a href="https://github.com/neelbhavsar99/MyUnityGame" target="_blank" class="btn btn-primary">Learn More</a>
-                      </div>
-                  </div>
-
-                  <div class="card text-center" style="width: 25rem;">
-                    <img class="card-img-top img-fluid" style = "height:160px" src="CEchip.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Simple General Purpose Processor</h5>
-                        <p class="card-text">Made a GPU Unit using ALU, Control Unit, two latches, Finite State Machine, and a 4x16 Decoder. Displayed it using Block Schematic File and SSEG display on an Alterra Chip.</p>
-                        <a href="https://github.com/neelbhavsar99/Simple-General-Purpose-Processor" target="_blank" class="btn btn-primary">Learn More</a>
-                      </div>
-                  </div>
-
+          <div class = "col-sm-4">
+            <div class="cardpictures">
+               <a href="https://frontierofhealthcare.com"><img class = "imgBorder" src="conference.jpg" width="250px;"/></a>
+               <div>
+                  <h3 class = "title">Frontier of Healthcare Digital-Tech Conference</h3>
+                  <p class = "title1">Used a variety of HTML5, CSS3 and JavaScript to create a website for an upcoming conference. Responsbile for regularly maintaining it.</p>
+               </div>
+            </div>
           </div>
-    </div>
+
+
+          <div class = "col-sm-4">
+            <div class = "cardpictures">
+               <a href="http://awol.tech/Baitul/"> <img class = "imgBorder" src="Masjid.png" width="250px;" height = "140px;"/></a>
+               <div>
+                  <h3 class = "title">Danforth Community Centre</h3>
+                  <p class = "title1">Built a website for local mosque incorporating live changes to prayer times with usage of open source code as times may vary. Used a combination of PHP, Javascript, HTML5 and CSS3 to create a layout for website.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+    <div class = "row">
+
+          <div class = "col-sm-4">
+            <div class = "cardpictures">
+               <a href="http://awol.tech/suicide/"> <img class = "imgBorder" src="1.jpg" width="250px;"/></a>
+               <div>
+                  <h3 class = "title">Web Application - Chatbot API</h3>
+                  <p class = "title1">Built an automated bot system using HTML5, CSS, Bootstrap and JS creating using Google chatbot APIs that takes a collection of phrases based on an input received from user end.</p>
+               </div>
+            </div>
+          </div>
+
+          <div class = "col-sm-4">
+            <div class = "cardpictures">
+               <a href="https://github.com/neelbhavsar99/CryptoConvert"> <img class = "imgBorder" src="3.png" width="250px;" height = "140px;"/></a>
+               <div>
+                  <h3 class = "title">Crypo Convert - App Development</h3>
+                  <p class = "title1">Built an application with Android Studio on the Android App Store that implements crypto conversion with live rate changes with the use of object oriented programming.
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class = "col-sm-4">
+            <div class="cardpictures">
+               <a href="https://github.com/neelbhavsar99/MyUnityGame"><img class = "imgBorder" src="2.jpg" width="250px;"/></a>
+               <div>
+                  <h3  class = "title1">Unity 2D Platformer Game Ecosystem</h3>
+                  <p  class = "title">Used object oriented programming on Unity game engine with C# to design, develop and incorporate a virtual 2D platformer system, allowing up to two player input, integrated polymorphism with inheritance of nested classes, advanced methods on private and public domain to render a virtual model of the prototype</p>
+               </div>
+            </div>
+          </div>
+
+
+
 
     </div>
+
+    <div class = "row">
+
+
+      <div class = "col-sm-4">
+        <div class = "cardpictures">
+           <a href="https://github.com/neelbhavsar99/Simple-General-Purpose-Processor"> <img class = "imgBorder" src="CEchip.jpg" width="250px;"/></a>
+           <div>
+              <h3 class = "title">Simple General Purpose Processor</h3>
+              <p class = "title1">Made a GPU Unit using ALU, Control Unit, two latches, Finite State Machine, and a 4x16 Decoder. Displayed it using Block Schematic File and SSEG display on an Alterra Chip.</p>
+           </div>
+        </div>
+      </div>
+
+    </div>
+
+   </div>
+
+<div class = "container">
+  <div class = "row">
+     <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+  </div>
+</div>
+    </div>
+
+
+
 
     <br><br><br><hr class = "my-2"><br>
 
