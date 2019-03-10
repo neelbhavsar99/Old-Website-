@@ -506,7 +506,18 @@
           <div style = "text-align:center">
             <p class="lead" style = "font-size:15px">Engineering Student Ambassador • RU Leadership • Ryerson Engineering Student Society • Tri-Mentoring Program • Frosh Leader • Humans of RyeEng • The Frontier of Healthcare Conference • RU Student Life • Campus Tour Guide • Night-of-Recognition Logistics Commitee • First Year Engineering Board • Ryerson's Faculty of Engineering and Architectural Science • NEXT Program</p>
           </div>
-          <div class = "col-sm-4">
+		    <div class = "col-sm-3">
+              <div class="cardpictures">
+                 <img class = "imgBorder2" height = "250px;" src="Frosh.jpg"/>
+                 <div>
+                    <h3 class = "title">Orientation Week</h3>
+                    <p class = "title1">Frosh Leader</p>
+                 </div>
+              </div>
+            </div>
+		  
+		  
+          <div class = "col-sm-3">
               <div class="cardpictures">
                  <img class = "imgBorder2"height = "250px;" src="REC2.jpg"/>
                  <div>
@@ -517,7 +528,7 @@
             </div>
 
 
-            <div class = "col-sm-4">
+            <div class = "col-sm-3">
               <div class="cardpictures">
                  <img class = "imgBorder2" height = "250px;" src="Frosh.jpg"/>
                  <div>
@@ -527,7 +538,7 @@
               </div>
             </div>
 
-            <div class = "col-sm-4">
+            <div class = "col-sm-3">
               <div class="cardpictures">
                  <img class = "imgBorder2" height = "250px;" src="OpenHouse.jpg"/>
                  <div>
