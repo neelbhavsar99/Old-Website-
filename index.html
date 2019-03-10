@@ -115,12 +115,51 @@
 
       }
 
-      .imgBorder{
-        border-radius: 10%;
-        width:225px;
-        height: 125px;
-      }
+		.imgBorder{
+			border-radius: 10%;
+			width:225px;
+			height: 125px;
+		  }
 
+		.image-container {
+		  position: relative;
+		  position: relative;
+		  display: inline-block;
+		}
+		.image-container .hover-text {
+		  position: absolute;
+		  left: 0;
+		  right: 0;
+		  top: 0;
+		  bottom: 0;
+		  background-color:rgba(192,192,192,.7);
+		  opacity: 0;
+		  transition: opacity;
+		}
+				
+		.hover-text a {
+		  display: table;
+		  height: 100%;
+		  width: 100%;
+		  text-decoration: none;
+		}
+		.hover-text a div {
+		  display: table-cell;
+		  vertical-align: middle;
+		  text-align: center;
+		  font-size: 3.0em;
+		  color: white;
+		}
+		.image-container img {
+		  vertical-align: top; /* fixes white space due to baseline alignment */
+		}
+		.image-container:hover .hover-text {
+		  opacity: 2;
+		  transition-duration: 0.5s;
+		  transition-timing-function: linear;
+		}
+			  
+	  
       .imgBorder2{
         border-radius: 3%;
 		position: relative;
@@ -130,8 +169,13 @@
 		background-position: 50% 50%;
 		background-repeat:   no-repeat;
 		background-size:     cover;
+	
       }
 
+				
+
+	  
+	  
       .subheading{
         text-align: center;
       }
@@ -496,14 +540,22 @@
           </div>
           
 		  <div class = "col-sm-4">
-              <div class="cardpictures">
-                 <img class = "imgBorder2" src="GoogleComp.jpg"/>
+             
+				<div class = "image-container">
+                 <img class = "imgBorder2;" style ="height:250px;width:325px" src="GoogleComp.jpg"/>
+					<div style = "" class="hover-text">
+					<div style = "text-align:center;font-weight:bold;position:absolute;top:25%;">Placed third place at Passport to Google: Waterloo 2019. Implemented a physical device with three infrared sensor ports to help impaired
+					students navigate throughout the campus integrating Campus mapping systems.</div>
+						</a>
+					</div>
+				</div>
+				
                  <div>
                     <h3 class = "title">Google Innovation Challenge</h3>
                     <p class = "title1">3rd Place</p>
                  </div>
               </div>
-            </div>
+            
 		  
 		  <div class = "col-sm-4">
               <div class="cardpictures">
