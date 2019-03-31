@@ -110,17 +110,79 @@
         text-align: center;
 
       }
+	   .title {
+        text-align: center;
 
-      .imgBorder{
-        border-radius: 10%;
-        width:225px;
-        height: 125px;
       }
 
+		.imgBorder{
+			border-radius: 10%;
+			width:225px;
+			height: 125px;
+		  }
+
+		.image-container {
+		  position: relative;
+		  position: relative;
+		  display: inline-block;
+		  border-radius:3%;
+		}
+		.image-container .hover-text {
+		  position: absolute;
+		  left: 0;
+		  right: 0;
+		  top: 0;
+		  bottom: 0;
+		  background-color:rgba(192,192,192,.7);
+		  opacity: 0;
+		  transition: opacity;
+		}
+				
+		.hover-text a {
+		  display: table;
+		  height: 100%;
+		  width: 100%;
+		  text-decoration: none;
+		}
+		.hover-text a div {
+		  display: table-cell;
+		  vertical-align: middle;
+		  text-align: center;
+		  font-size: 3.0em;
+		  color: white;
+		}
+		.image-container img {
+		  vertical-align: top; /* fixes white space due to baseline alignment */
+		}
+		.image-container:hover .hover-text {
+		  opacity: 2;
+		  transition-duration: 0.5s;
+		  transition-timing-function: linear;
+		}
+			  
+	  
       .imgBorder2{
         border-radius: 3%;
+		position: relative;
+		float: center;
+		width:  325px;
+		height: 240px;
+		background-position: 50% 50%;
+		background-repeat:   no-repeat;
+		background-size:     cover;
+	
       }
+	
+	.hoveringText {
+	text-align:center;
+	font-weight:bold;
+	position:absolute;
+	top:25%;
+	}
+				
 
+	  
+	  
       .subheading{
         text-align: center;
       }
@@ -481,38 +543,70 @@
   <div class="container mt-2">
     <div class = "row">
           <div style = "text-align:center">
-            <p class="lead" style = "font-size:15px">Engineering Student Ambassador • RU Leadership • Ryerson Engineering Student Society • Tri-Mentoring Program • Frosh Leader • Humans of RyeEng • The Frontier of Healthcare Conference • RU Student Life • Campus Tour Guide • Night-of-Recognition Logistics Commitee • First Year Engineering Board • Ryerson's Faculty of Engineering and Architectural Science • NEXT Program</p>
+            <p class="lead" style = "font-size:15px">Engineering Student Ambassador • RU Leadership • Ryerson Engineering Student Society • Tri-Mentoring Program • Frosh Leader • Humans of RyeEng • The Frontier of Healthcare Conference • RU Student Life • Campus Tour Guide • Night-of-Recognition Logistics Commitee • First Year Engineering Board • Ryerson's Faculty of Engineering and Architectural Science • NEXT Career Development Program</p>
           </div>
-          <div class = "col-sm-4">
-              <div class="cardpictures">
-                 <img class = "imgBorder2"height = "250px;" src="REC2.jpg"/>
+          
+		  <div class = "col-sm-4">
+             
+				<div class = "image-container">
+					<img class = "imgBorder2;" style ="border-radius:3%;height:250px;width:325px" src="GoogleComp.jpg"/>
+					<div class="hover-text">
+						<div class = "hoveringText">Placed third at Passport to Google: Waterloo 2019 amongst five universities. Implemented a physical device with three infrared sensor ports to help impaired
+						students navigate throughout the campus integrating Campus mapping systems.
+						</div>
+					</div>
+				</div>
+				
                  <div>
-                    <h3 class = "title">Ryerson Engineering competition</h3>
+                    <h3 class = "title">Google Innovation Challenge</h3>
                     <p class = "title1">3rd Place</p>
                  </div>
               </div>
+            
+		  
+		  <div class = "col-sm-4">
+              <div class = "image-container">
+				
+				<img class = "imgBorder2;" style ="border-radius:3%;height:250px;width:325px" src="REC2.jpg"/>
+				<div class="hover-text">
+					<div class = "hoveringText">Placed third amongst 10 teams throughout Ryerson University, programming sector. 
+					Implemented Google chatbot API which responds to users based on their input reflecting on the theme, help reduce
+					suicidal rates with an interactive web application.
+					</div>
+				</div>
+					
+				</div>
+					
+				 <div>
+                    <h3 class = "title">Ryerson Engineering competition</h3>
+                    <p class = "title1">3rd Place</p>
+                 </div>
+              
             </div>
 
 
             <div class = "col-sm-4">
               <div class="cardpictures">
-                 <img class = "imgBorder2" height = "250px;" src="Frosh.jpg"/>
-                 <div>
-                    <h3 class = "title">Orientation Week</h3>
-                    <p class = "title1">Frosh Leader</p>
+			  
+			  <div class = "image-container">
+                  
+			<img class = "imgBorder2;" style ="border-radius:3%;height:250px;width:325px"  src="OpenHouse.jpg"/>
+            
+				 
+				 <div class="hover-text">
+					<div class = "hoveringText">Leadership initiatives as an outreach for over 1100 incoming students including Ontario University Fair, 
+					to Toronto based high-schools representing Ryerson Engineering.</div>
+						</a>
+					</div>
+				</div>
+					
+                    <h3 class = "title">Ryerson Campus Open House</h3>
+                    <p class = "title1">Engineering Ambassador FEAS</p>
                  </div>
               </div>
             </div>
 
-            <div class = "col-sm-4">
-              <div class="cardpictures">
-                 <img class = "imgBorder2" height = "250px;" src="OpenHouse.jpg"/>
-                 <div>
-                    <h3 class = "title">Ryerson Annual Open House</h3>
-                    <p class = "title1">Student Representative</p>
-                 </div>
-              </div>
-            </div>
+            
     </div>
   </div>
 
