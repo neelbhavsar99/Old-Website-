@@ -347,7 +347,7 @@
         <div class="jumbotron">
           <p data-aos="zoom-out" data-aos-delay="500"style="font-size: 120px; color:white;animation-duration:2s;
           animation-iteration-count:infinite;animation-delay:1s;
-        "class="lead pulse mb-5 green pb-5 aos-init aos-animate" class = "lightGreen">Neel Bhavsar</p>
+        "class="lead pulse mb-5 green pb-5 aos-init aos-animate" class = "lightGreen" id="nametagneel">Neel Bhavsar</p>
           <p data-aos="zoom-out" data-aos-delay="500" style="color:white;animation-duration:2s;animation-iteration-count:infinite;animation-delay:1s;"
           class="lead pulse mb-5 lightGreen pb-5 aos-init aos-animate" class = "animated fadeInUp delay-3s text-55">Aspiring Developer.<br>An Engineering student.</p>
 
@@ -632,16 +632,16 @@
                    </div>
                </div>
           </div>
-          <div class = "MySlider-container">
+          <div class = "MySlider-container" style="text-align:center" id="panel1">
             <h1 class="display-5">Some more events I was a apart of!</h1><br><br>
-            <div class="container mt-2">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
-                  <ol class="carousel-indicators">
+            <div class="container mt-2" style="text-align:center">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="text-align:center" >
+                  <ol class="carousel-indicators" style="text-align:center">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                   </ol>
-                  <div class="carousel-inner">
+                  <div class="carousel-inner" style="text-align:center">
                     <div class="carousel-item active">
                       <img class="d-md-block w-100" src="AspireSpeaker.png" alt="First slide">
                     </div>
@@ -702,7 +702,19 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script>
+          $(function() {
+            $("#nametagneel").fadeOut(750).fadeIn(750);
+            $("#nametagneel").fadeOut(750).fadeIn(750);
+            $("#nametagneel").fadeOut(750).fadeIn(750);
+
+          });
+
+        </script>
+
 
           </body>
 
 </html>
+
