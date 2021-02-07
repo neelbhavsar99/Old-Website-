@@ -278,7 +278,7 @@
 <section id="about">
 
   <div class="jumbotron">
-    <p data-aos="zoom-out" data-aos-delay="500"style="font-size: 100px; color:white;animation-duration:2s;
+    <p data-aos="zoom-out" data-aos-delay="500"style="font-size: 80px; color:white;animation-duration:2s;
     animation-iteration-count:infinite;animation-delay:1s;
 "class="lead pulse mb-5 green pb-5 aos-init aos-animate" class = "lightGreen">Neel Bhavsar</p>
     <p data-aos="zoom-out" data-aos-delay="500" style="color:white;animation-duration:2s;animation-iteration-count:infinite;animation-delay:1s;"
